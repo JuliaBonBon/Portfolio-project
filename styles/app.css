@@ -99,8 +99,35 @@ p {
     padding: 80px 20px;
   }
 
+  .about-section {
+    text-align: center;
+    padding: 0 !important;
+  }
+
   .project-description {
     padding: 0;
     text-align: center;
   }
+}
+
+.about-section {
+  padding: 120px 60px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 57px;
+}
+
+.about-me {
+  border-radius: 265px 130px 250px 140px;
 }
