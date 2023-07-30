@@ -99,7 +99,7 @@ p {
     padding: 80px 20px;
   }
 
-  .about-section {
+  .content {
     text-align: center;
     padding: 0 !important;
   }
@@ -124,21 +124,32 @@ p {
   }
 }
 
-.about-section {
+.content-container {
   padding: 120px 58px;
 }
 
-.about-section h1 {
-  font-size: 64px;
+.content h1 {
+  font-size: 59px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
 
-.about-section-content {
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+  font-family: var(--default-font-family);
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content {
   margin: 45px;
 }
 
