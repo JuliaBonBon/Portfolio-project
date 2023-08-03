@@ -162,6 +162,7 @@ nav li.active a {
 @media (min-width: 901px) and (max-width: 1200px) {
   .about-me {
     margin: 65px !important;
+    max-width: 80%;
   }
   .about-section {
     padding: 120px 30px !important;
