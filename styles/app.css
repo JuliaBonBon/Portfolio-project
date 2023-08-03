@@ -135,6 +135,7 @@ nav li.active a {
 
   .hero {
     padding: 80px 20px;
+    background-size: 94%;
   }
 
   .content {
