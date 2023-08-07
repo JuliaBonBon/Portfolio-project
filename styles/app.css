@@ -22,7 +22,7 @@ h6 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 90px;
   line-height: 1.5;
 }
 
@@ -30,7 +30,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -45,7 +45,7 @@ p {
   background-repeat: no-repeat;
   background-size: 60%;
   text-align: center;
-  padding: 160px 20px;
+  padding: 135px 20px;
 }
 
 .hero p {
@@ -66,10 +66,17 @@ p {
 .btn-branding {
   background: var(--branding-color) !important;
   border-radius: 6px;
-  color: #f9f7fe;
+  color: #f9f7fe !important;
   padding: 18px 30px;
   font-size: 18px;
   line-height: 27px;
+}
+
+.btn-branding:hover {
+  color: var(--third-degree-color) !important;
+  font-size: 19px;
+  transition: all 100ms ease-in-out;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .btn-branding-outline {
@@ -85,6 +92,7 @@ p {
 .btn-branding-outline:hover {
   background: var(--branding-color);
   color: var(--third-degree-color);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .project-description {
@@ -125,6 +133,7 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--branding-color);
+  font-size: 19px;
 }
 
 footer {
@@ -171,6 +180,20 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
+footer .github {
+  font-size: 15px;
+}
+
+footer .github a {
+  color: var(--branding-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer .github a:hover {
+  color: #272142;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -206,6 +229,18 @@ footer .social-links a:hover {
     padding: 15px 0px !important;
     margin: 63px;
   }
+
+  footer .github {
+    font-size: 10px;
+  }
+
+  nav li {
+    font-size: 14px;
+  }
+
+  nav li:hover {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 901px) and (max-width: 1200px) {
@@ -219,7 +254,7 @@ footer .social-links a:hover {
 }
 
 .content-container {
-  padding: 120px 58px;
+  padding: 80px 35px;
 }
 
 .content h1 {
@@ -245,6 +280,16 @@ footer .social-links a:hover {
 
 .content {
   margin: 45px;
+}
+
+.contact-info {
+  text-decoration: none;
+  color: #272142;
+}
+
+.contact-info:hover {
+  color: var(--branding-color);
+  font-size: 17px;
 }
 
 .about-me {
